@@ -25,7 +25,7 @@ namespace PlaymoveTechTest.Controllers
             var result = await _supplierService.Create(request);
 
             if (result is null)
-                return BadRequest("Email informado já está cadastrado!");
+                return BadRequest("Email informado já foi cadastrado!");
 
             return Created($"{Request.Path}/{result}", new { });
         }
