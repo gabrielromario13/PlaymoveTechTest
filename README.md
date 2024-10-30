@@ -1,3 +1,13 @@
 # PlaymoveTechTest
 
-Para a aplicação funcionar corretamente, somente será necessário adicionar uma ConnectionString no arquivo AppSettings.json e aplicar as Migrations ao banco de dados.
+## How to use (Enviroment)
+
+- [SQLServer]
+  - Connection string is configured on appsettings.json
+  - Migrations will be applied when you start the application
+
+## Implemented technologies:
+
+- .NET Core 8
+- Entity Framework Core
+- Swagger
