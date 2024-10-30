@@ -3,7 +3,7 @@
 ## How to use (Enviroment)
 
 - [SQLServer]
-  - Connection string is configured on appsettings.json
+  - Configure your ConnectionString on appsettings.json
   - Migrations will be applied when you start the application
 
 ## Implemented technologies:
